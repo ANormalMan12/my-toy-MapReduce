@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8e17290f-9a28-40e1-a223-e944abdf0ca6" name="wangMaster">
+        <fileTransfer rootFolder="/home/wwy/wwyMapReduceTest" accessType="SFTP" host="192.168.56.101" port="22" sshConfigId="484d7087-7151-40d8-b22d-94c69980fcb2" sshConfig="wwy@192.168.56.101:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
