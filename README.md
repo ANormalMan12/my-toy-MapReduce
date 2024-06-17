@@ -18,3 +18,5 @@
 
 ## 架构图
 ![Framework.png](docs%2Fdesigns%2FFramework.png)
+
+JobTracker会将Map, Reduce任务调度给TaskTracker。TaskTracker会为每个被指派到其的任务创建新的Worker进程来完成相关任务。
